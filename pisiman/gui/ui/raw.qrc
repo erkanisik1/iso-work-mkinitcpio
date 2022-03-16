@@ -1,7 +1,8 @@
 <RCC>
-  <qresource prefix="raw" >
+  <qresource prefix="raw">
     <file>pics/document-new.png</file>
     <file>pics/document-open.png</file>
+    <file>pics/pisi.png</file>
     <file>pics/document-save.png</file>
     <file>pics/document-save-as.png</file>
     <file>pics/application-exit.png</file>

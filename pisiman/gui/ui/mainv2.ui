@@ -11,11 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Pisiman</string>
+   <string>Pisi iso creator</string>
   </property>
   <property name="windowIcon">
    <iconset resource="raw.qrc">
-    <normaloff>:/raw/pics/pardusman.png</normaloff>:/raw/pics/pardusman.png</iconset>
+    <normaloff>:/raw/pics/pisi.png</normaloff>:/raw/pics/pisi.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_5">

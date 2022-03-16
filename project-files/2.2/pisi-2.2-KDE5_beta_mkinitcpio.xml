@@ -1,7 +1,7 @@
 <PardusmanProject type="live" compression="xz">
-    <Title>Pisi Linux 2.2 KDE5 x86_64</Title>
-    <WorkDir>/home/hrngultekin/isoWork</WorkDir>
-    <ReleaseFiles>/mnt/Data/linux/paylasilan/iso-work/release-files/pisilinux/media-content-template</ReleaseFiles>
+    <Title>Pisi Linux 2.2 KDE5 RC2 CROCUS ANCYRENSIS x86_64</Title>
+    <WorkDir>/home/erkanisik/isoWork</WorkDir>
+    <ReleaseFiles>/media/yedekleme/github/erkanisik1/iso-work-mkinitcpio/release-files/pisilinux/media-content-template</ReleaseFiles>
     <LiveRepo>https://ciftlik.pisilinux.org/2.0-Beta.1/pisi-index.xml.xz</LiveRepo>
     <IsoOutputDir use-project-dir="True"></IsoOutputDir>
     <PackageCollections>
@@ -66,7 +66,7 @@
                     <Description>Temel Sistem</Description>
                 </Translation>
             </Translations>
-            <PackageSelection repo_uri="https://ciftlik.pisilinux.org/2.0-Beta.1/pisi-index.xml.xz"/></PackageCollection>
+            <PackageSelection repo_uri="file:///media/yedekleme/2.0-Beta.1/pisi-index.xml.xz"/></PackageCollection>
     </PackageCollections>
     <InstallImagePackages>
         <SelectedComponent>desktop.kde.framework</SelectedComponent>
@@ -105,6 +105,8 @@
         <SelectedPackage>gnupg</SelectedPackage>
         <SelectedPackage>grub2-editor</SelectedPackage>
         <SelectedPackage>gwenview</SelectedPackage>
+        <SelectedPackage>intel-ucode</SelectedPackage>
+        <SelectedPackage>iputils</SelectedPackage>
         <SelectedPackage>kactivitymanagerd</SelectedPackage>
         <SelectedPackage>kaptan</SelectedPackage>
         <SelectedPackage>kate</SelectedPackage>
@@ -113,6 +115,7 @@
         <SelectedPackage>kde-gtk-config</SelectedPackage>
         <SelectedPackage>kde-servicemenu-rootactions</SelectedPackage>
         <SelectedPackage>kdeconnect</SelectedPackage>
+        <SelectedPackage>kdegraphics-thumbnailers</SelectedPackage>
         <SelectedPackage>kdeplasma-addons</SelectedPackage>
         <SelectedPackage>kernel</SelectedPackage>
         <SelectedPackage>kgamma5</SelectedPackage>
@@ -144,6 +147,7 @@
         <SelectedPackage>modemmanager-qt</SelectedPackage>
         <SelectedPackage>network-manager-applet</SelectedPackage>
         <SelectedPackage>networkmanager-qt</SelectedPackage>
+        <SelectedPackage>nfs-utils</SelectedPackage>
         <SelectedPackage>ntfs-3g</SelectedPackage>
         <SelectedPackage>okular</SelectedPackage>
         <SelectedPackage>openssh</SelectedPackage>
@@ -174,6 +178,7 @@
         <SelectedPackage>pulseaudio</SelectedPackage>
         <SelectedPackage>python-argparse</SelectedPackage>
         <SelectedPackage>python-decorator</SelectedPackage>
+        <SelectedPackage>python3-distro</SelectedPackage>
         <SelectedPackage>qscintilla2</SelectedPackage>
         <SelectedPackage>qscintilla2-python</SelectedPackage>
         <SelectedPackage>qt5-accountsservice</SelectedPackage>
@@ -465,8 +470,10 @@
         <Package>imath</Package>
         <Package>imlib2</Package>
         <Package>intel-tbb</Package>
+        <Package>intel-ucode</Package>
         <Package>iproute2</Package>
         <Package>iptables</Package>
+        <Package>iputils</Package>
         <Package>iso-codes</Package>
         <Package>jack-audio-connection-kit</Package>
         <Package>jansson</Package>
@@ -499,6 +506,7 @@
         <Package>kdecorations</Package>
         <Package>kded</Package>
         <Package>kdegraphics-mobipocket</Package>
+        <Package>kdegraphics-thumbnailers</Package>
         <Package>kdelibs4-support</Package>
         <Package>kdesignerplugin</Package>
         <Package>kdesu</Package>
@@ -848,6 +856,7 @@
         <Package>nettle</Package>
         <Package>networkmanager-qt</Package>
         <Package>newt</Package>
+        <Package>nfs-utils</Package>
         <Package>nilfs-utils</Package>
         <Package>npth</Package>
         <Package>nspr</Package>
@@ -948,6 +957,7 @@
         <Package>python3-chardet</Package>
         <Package>python3-cups</Package>
         <Package>python3-idna</Package>
+        <Package>python3-psutil</Package>
         <Package>python3-pygobject3</Package>
         <Package>python3-pyqt5-sip</Package>
         <Package>python3-pyserial</Package>
